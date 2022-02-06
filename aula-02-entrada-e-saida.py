@@ -41,6 +41,6 @@ altura = input('Escreva sua altura: ')
 telefone = input('Digite o seu número para contato: ')
 resolucao = 'Exercicio resolvido!'
 
-relatorio = 'NOME: ',nome, 'CPF: ',cpf, 'ENDERECO: ',endereco, 'IDADE: ',idade, 'ALTURA: ',altura, 'TELEFONE: ',telefone,
+relatorio = 'NOME: ',nome, 'CPF: ',cpf, 'ENDERECO: ',endereco, 'IDADE: ',idade, 'ALTURA: ',altura, 'TELEFONE: ',telefone
 print(relatorio)
 print(resolucao)
