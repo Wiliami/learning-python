@@ -15,4 +15,4 @@ pagina.write("""
     </body>
 </html>
 """)
-]pagina.close()
+pagina.close()
