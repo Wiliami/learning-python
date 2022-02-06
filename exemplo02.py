@@ -3,7 +3,7 @@ pagina.write("""
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <meta charset=UTF-8>
+        <meta charset="UTF-8"/>
         <title>Como funciona python com html</title>
     </head>
     <body>
