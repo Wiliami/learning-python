@@ -27,20 +27,3 @@
 
 
 
-#EXERCICIO: Faça um formulário que pergunte
-#nome, cpf, endereço, idade, altura e telefone
-#
-#e imprima isso em um relatório organizado
-
-
-nome = input('Escreva seu nome: ')
-cpf = input('Digite seu cpf: ')
-endereco = input('Digite seu endereço: ')
-idade = input('Escreva sua idade: ')
-altura = input('Escreva sua altura: ')
-telefone = input('Digite o seu número para contato: ')
-resolucao = 'Exercicio resolvido!'
-
-relatorio = 'NOME: ',nome, 'CPF: ',cpf, 'ENDERECO: ',endereco, 'IDADE: ',idade, 'ALTURA: ',altura, 'TELEFONE: ',telefone
-print(relatorio)
-print(resolucao)
