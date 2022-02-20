@@ -17,5 +17,5 @@ print('CPF: ', cpf)
 print('ENDERECO: ', endereco)
 print('IDADE: ', idade) 
 print('ALTURA: ', altura)
-print('TELEFONE: ', telefone)
+print('TELEFONE: ', telefone) # aqui vai um comentário
 print(resolucao)
