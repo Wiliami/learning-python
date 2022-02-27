@@ -5,4 +5,4 @@ try:
 except:
     print('Requisição deu erro!');
 
-print(requisicao)
+print(requisicao) 
