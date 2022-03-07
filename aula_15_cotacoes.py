@@ -1,8 +1,17 @@
-import requets
+import requests
+# import pandas as pd
+from datetime import datetime
+import time
 import json
+while True:
+    requisicao = requests.get('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
+    cotacao = json.loads(requisicao.text)
 
-requisicao = requests.get('nome do site que tem as cotações das principais moedas')
+    print('### COTACAO ###', datetime.date.now())
+    print('Dólar: ', cotacao['valores']['USD']['valor'])
+    print('EUR: ', cotacao['valores']['EUR']['valor'])
+    print('BTC: ', cotacao['valores']['BTC']['valor'])
+    time.sleep(2)
 
-# como o retorno da chamad get é um json, eu posso transformar em um objeto pyhton
-cotacao = json.loads(requisicao.text) # vai retornar o objeto python formatado
-print(cotacao)
+
+ 
