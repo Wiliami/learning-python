@@ -12,6 +12,3 @@ while True:
     print('EUR: ', cotacao['valores']['EUR']['valor'])
     print('BTC: ', cotacao['valores']['BTC']['valor'])
     time.sleep(2)
-
-
- 
